@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "justyna-training-tfstate"
     prefix = "env/prod"
   }
 }
